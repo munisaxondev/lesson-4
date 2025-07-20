@@ -1,0 +1,75 @@
+body{ background-color: rgb(159, 128, 188);}
+.body1{ background-color: white;}
+.box{ 
+    width: 240px;
+    height: 240px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+.item{
+    width: 50px ;
+    height: 50px;
+    background-color: #f7941f;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.body2{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.container{ 
+    max-width: 1240px;
+    margin: 0px auto;
+}
+.first{
+     display: flex;
+     gap: 8px;
+}
+.second{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.third{ 
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.fourth{
+    display: flex;
+    justify-content: space-between;
+}
+.fifth{ 
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+}
+.sixth{
+    display: flex;
+    justify-content: end;
+    gap: 8px ;
+}
+.seven{ 
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.ten{
+    display: flex;
+    align-items: end;
+    gap: 8px;
+}
+.eleven{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.twelve{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
